@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utility.css" />
+  <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+  <div class="container flex rounded1">
+    <div class="left border">
+      <div class="closeBtn">
+        <img src="close.svg" alt="" />
+      </div>
+      <div class="home border bg-gray rounded1">
+        <div class="logo">
+          <img class="invert" height="28px" src="black-Spotify logo.png" alt="logo" />
+        </div>
+        <ul>
+          <li class="m-1 cursor">
+            <img class="invert" src="home.svg" alt="home" />Home
+          </li>
+          <li class="m-1 cursor">
+            <img class="invert" src="search.svg" alt="search-bar" />Search
+          </li>
+        </ul>
+      </div>
+      <div class="library border bg-gray rounded1">
+        <div class="libraryBox flex items-center">
+          <ul>
+            <li class="m-1 flex items-center cursor">
+              <img class="invert" height="30px" src="library.svg" alt="" />Your Library
+            </li>
+          </ul>
+          <ul class="flex">
+            <li><img class="cursor" src="plusIcon.svg" alt="" /></li>
+            <li><img class="cursor" src="forwardArrow.svg" alt="" /></li>
+          </ul>
+        </div>
+
+        <div class="songList">
+          <ul>
+            <!-- <li>
+                <img src="musicBtn.svg" alt="" />
+                <div class="info">
+                  <div>Song Name</div>
+                  <div>Artist Name</div>
+                </div>
+                <div class="playnow">
+                  <span>Play Now</span>
+                  <img src="play.svg" alt="" />
+                </div>
+              </li> -->
+            <!-- <li>Song Name</li>
+                <li>Artist Name</li> -->
+          </ul>
+        </div>
+
+        <!-- <div class="create-playlist light-gray flex rounded2">
+            <h2>Create your first playlist</h2>
+            <p>It's easy we'll help you</p>
+            <button class="cursor">Create playlist</button>
+          </div>
+          <div class="browse-podcast light-gray flex rounded2">
+            <h2>Let's find some podcasts to follow</h2>
+            <p>we'll keep you updated on new episodes</p>
+            <button class="cursor">Browse podcasts</button>
+          </div> -->
+      </div>
+    </div>
+    <div class="right border rounded1">
+      <header class="flex rightHeader">
+        <div class="hamburgerBox">
+          <div class="hamburger">
+            <img src="menu.svg" alt="" />
+          </div>
+          <div class="leftBtn">
+            <button class="cursor bg-black">
+              <img src="cevronLeft.svg" alt="" />
+            </button>
+            <button class="cursor bg-black">
+              <img src="cevronRight.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="rightBtn">
+          <button class="cursor bg-black SignIn SignUp">Sign up</button>
+          <button class="cursor SignIn LogIn">Log in</button>
+        </div>
+      </header>
+      <main>
+        <h2 class="playlistHeader">Spotify Playlist</h2>
+        <div class="cards">
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="hotHits.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Hot Hits Hindi</h2>
+              <p class="songName">
+                Hottest Hindi music served here. Cover - Bad Newz
+              </p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="Arjit.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>This is Arjit Singh</h2>
+              <p>Bollywood crooner's essential songs.</p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="punjabi.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Hot Hits Punjabi</h2>
+              <p>
+                Catch the hottest Punjabi tracks with Juss for his track
+                "Suniyan Suniyan
+              </p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="allOut.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>All Out 00's Hindi</h2>
+              <p>
+                Bollywood songs that ruled hearts in the Y2K decade. Cover -
+                Jab We Met
+              </p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="munya.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Hot Hits Hindi</h2>
+              <p>Hottest Hindi music served here. Cover - Bad Newz</p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="central.jfif" alt="image" />
+            <div class="playBtn">
+              <img class="playCircle" src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Bollywood...</h2>
+              <p>
+                Bollywood Central, jab baje toh seedha dil ke centre mein lage
+                ❤️ Cover - Crew
+              </p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="hotHits.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Hot Hits Hindi</h2>
+              <p class="songName">
+                Hottest Hindi music served here. Cover - Bad Newz
+              </p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="Arjit.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>This is Arjit Singh</h2>
+              <p>Bollywood crooner's essential songs.</p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="punjabi.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Hot Hits Punjabi</h2>
+              <p>
+                Catch the hottest Punjabi tracks with Juss for his track
+                "Suniyan Suniyan
+              </p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="allOut.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>All Out 00's Hindi</h2>
+              <p>
+                Bollywood songs that ruled hearts in the Y2K decade. Cover -
+                Jab We Met
+              </p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="munya.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Hot Hits Hindi</h2>
+              <p>Hottest Hindi music served here. Cover - Bad Newz</p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="central.jfif" alt="image" />
+            <div class="playBtn">
+              <img class="playCircle" src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Bollywood...</h2>
+              <p>
+                Bollywood Central, jab baje toh seedha dil ke centre mein lage
+                ❤️ Cover - Crew
+              </p>
+            </div>
+          </div>
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="hotHits.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Hot Hits Hindi</h2>
+              <p class="songName">
+                Hottest Hindi music served here. Cover - Bad Newz
+              </p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="Arjit.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>This is Arjit Singh</h2>
+              <p>Bollywood crooner's essential songs.</p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="punjabi.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Hot Hits Punjabi</h2>
+              <p>
+                Catch the hottest Punjabi tracks with Juss for his track
+                "Suniyan Suniyan
+              </p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="allOut.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>All Out 00's Hindi</h2>
+              <p>
+                Bollywood songs that ruled hearts in the Y2K decade. Cover -
+                Jab We Met
+              </p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="munya.jfif" alt="image" />
+            <div class="playBtn">
+              <img src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Hot Hits Hindi</h2>
+              <p>Hottest Hindi music served here. Cover - Bad Newz</p>
+            </div>
+          </div>
+
+          <div class="cards1 rounded2">
+            <img class="rounded2" src="central.jfif" alt="image" />
+            <div class="playBtn">
+              <img class="playCircle" src="playCircle.svg" alt="" />
+            </div>
+            <div class="textBox">
+              <h2>Bollywood...</h2>
+              <p>
+                Bollywood Central, jab baje toh seedha dil ke centre mein lage
+                ❤️ Cover - Crew
+              </p>
+            </div>
+          </div>
+
+          <div class="musicDiv">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <!-- <div class="dashboard"> -->
+            <div class="songInfo"></div>
+            <div class="musicButtons">
+              <img class="pre" src="preSongs.svg" alt="" />
+              <img id="play" src="play.svg" alt="" />
+              <img class="next" src="nextSongs.svg" alt="" />
+            </div>
+            <!-- <div class="volumeBox"> -->
+            <div class="duration">00:00/00:00</div>
+            <!-- <div class="volumeBtn"><img src="volume.svg" alt="" /></div> -->
+            <!-- </div> -->
+
+            <!-- </div> -->
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
